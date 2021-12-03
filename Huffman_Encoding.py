@@ -70,7 +70,7 @@ def frequencies(s):
     result = []
     for i, (char, _) in enumerate(char_num):
         if i != len(char_num) - 1:
-            result.append((char, int(i*'1' + '0')))
+            result.append((char, int(i * '1' + '0')))
         else:
             result.append((char, int(i * '1')))
 
